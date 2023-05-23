@@ -170,6 +170,20 @@ require_once RACINE_SITE . "inc/message.php";
             $(document).on('click', '.close-btn', function() {
                 $('#nav').removeClass('active');
             });
+
+                        $("#openModalBtn").click(function() {
+                $("#modal-admin").css("display", "block");
+            });
+
+            $(".close-modal-admin").click(function() {
+                $("#modal-admin").css("display", "none");
+            });
+
+            $(window).click(function(event) {
+                if (event.target.id === "modal-admin") {
+                $("#modal-admin").css("display", "none");
+                }
+            });
 		});
 	</script>
 </body>
