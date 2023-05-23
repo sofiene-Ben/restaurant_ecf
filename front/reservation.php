@@ -12,7 +12,7 @@ if (isset($_POST['liste_couverts']) && isset($_POST["date_reservation"]) && isse
     $liste_couverts = htmlspecialchars($_POST['liste_couverts']);
     $mention_allergies = htmlspecialchars($_POST["mention_des_allergie"]);
 
-    $conn = mysqli_connect("localhost", "id20798779_sofiene_benamar", "sofienebenamar2000A-", "id20798779_restaurant_db");
+    $conn = mysqli_connect("localhost", "root", "", "restaurant_db");
     if (!$conn) {
         die("Erreur de connexion à la base de données : " . mysqli_connect_error());
     }
