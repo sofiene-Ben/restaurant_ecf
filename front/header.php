@@ -52,13 +52,13 @@
                 <span class="close-modal-admin">&times;</span>
                 <h2>Menu Admin</h2>
                 <ul class="admin-menu">
-                <li><a href="<?= URL ?>../../../../ecf_test/back/gestion_galerie/index.php">Gestion galerie</a></li>
-                <li><a href="<?= URL ?>../../../../ecf_test/back/gestion_categorie/index.php">Gestion catégorie</a></li>
-                <li><a href="<?= URL ?>../../../../ecf_test/back/gestion_plats/index.php">Gestion plats</a></li>
-                <li><a href="<?= URL ?>../../../../ecf_test/back/gestion_formule/index.php">Gestion formule</a></li>
-                <li><a href="<?= URL ?>../../../../ecf_test/back/gestion_horaire_ouverture/index.php">Gestion horaire ouverture</a></li>
-                <li><a href="<?= URL ?>../../../../ecf_test/back/gestion_horaire_resa/index.php">Gestion horaire réservation</a></li>
-                <li><a href="<?= URL ?>../../../../ecf_test/back/gestion_table/index.php">Gestion table</a></li>
+                <li><a href="<?= URL ?>../../../../back/gestion_galerie/index.php">Gestion galerie</a></li>
+                <li><a href="<?= URL ?>../../../../back/gestion_categorie/index.php">Gestion catégorie</a></li>
+                <li><a href="<?= URL ?>../../../../back/gestion_plats/index.php">Gestion plats</a></li>
+                <li><a href="<?= URL ?>../../../../back/gestion_formule/index.php">Gestion formule</a></li>
+                <li><a href="<?= URL ?>../../../../back/gestion_horaire_ouverture/index.php">Gestion horaire ouverture</a></li>
+                <li><a href="<?= URL ?>../../../../back/gestion_horaire_resa/index.php">Gestion horaire réservation</a></li>
+                <li><a href="<?= URL ?>../../../../back/gestion_table/index.php">Gestion table</a></li>
                 </ul>
             </div>
             </div>
