@@ -1,0 +1,78 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#memberModal {
+	display: none;
+}
+
+.title-page {
+
+	text-align: center;
+}
+
+.btn-add {
+	display: flex;
+	justify-content: end;
+}
+
+.add-btn, .btn {
+	border: none;
+	outline: none;
+	align-items: center;
+	display: flex;
+}
+
+.add-btn {
+	padding: 12px 20px;
+}
+
+.update {
+	background-color: #f0ad4e;
+	border-color: #eea236;
+	padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.table_data {
+	margin: 0 auto;
+	width: 100%;
+}
+
+td {
+
+	text-align: center;
+
+}
+
+td button {
+	margin: 0 auto;
+}
+
