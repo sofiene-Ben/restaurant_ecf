@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+body {
+    background-color: #392C1E;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+
+
+/* ----------- STYLE CARTE ----------- */
+
+.page-entiere {
+    background: #392C1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 830px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-products {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.title-cat {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.plats {
+    margin-bottom: 15px;
+}
+
+.plat-content {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-bottom: 20px;
+}
+
+.plat-title-price {
+    display: flex;
+    flex-direction: row;
+}
+
+.plat-title-price p,
+.plat-title-price span {
+    font-size: 18px;
+}
+
+.container-menu-formule {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.menu-formule {
+    background: #906427;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 750px) {
+    .width-section-1 {
+        max-width: 650px;
+    }
+
+    .container-products {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .food-proposition {
+        padding: 15px 20px;
+    }
+
+    .title-cat {
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (min-width: 827px) {
+    .width-section-1 {
+        max-width: 815px;
+    }
+}
